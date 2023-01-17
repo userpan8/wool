@@ -1,10 +1,10 @@
 /*
 *
-*author: TimeOut
-*date: 2023.1.15
-*script: 福鲤趣看.js
-*s-v: 1.0
-*下载地址：http://i.zhufurili.com/r?p=A64N
+* author: TimeOut
+* date: 2023.1.15
+* script: 福鲤趣看.js
+* s-v: 1.0
+* 下载地址：http://i.zhufurili.com/r?p=A64N
 * 使用帮助：每天0.3-0.6毛
 *           获取appKey，sign，userId，utdId 方法 > 退出福鲤趣看账号 > 开启黄鸟 > 登录福鲤趣看账号 >回到黄鸟搜索loginByWx查看响应，参数在响应里
 *           获取deviceId，baseband 方法 > 黄鸟搜索api.huluzhuanqian.cn > 查看请求，参数在请求里
