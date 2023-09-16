@@ -1,0 +1,25 @@
+name: nodejs tb autosign
+
+on: 
+  push:
+  gollum: 
+  schedule: 
+      - cron: '0 8,12,15 * * *'
+
+jobs:
+  one:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    # 使用 node:10
+    - name: use Node.js 10.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 10.x
+    # npm install
+    - name: npm install and do sign
+      run: |
+        npm install
+        node ts.js
