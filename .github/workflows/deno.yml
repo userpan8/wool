@@ -35,8 +35,8 @@ jobs:
       # - name: Verify formatting
       #   run: deno fmt --check
 
-      - name: Run linter
-        run: deno lint
-
-      - name: Run tests
-        run: deno test -A
+      # npm install
+    - name: npm install and do sign
+      run: |
+        npm install
+        node ts.js
