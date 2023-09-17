@@ -21,7 +21,7 @@ jobs:
     - name: install request
       run: npm install request
     # npm install
-    - name: 至尊宝签到
+    - name: 至尊宝
       run: |
         npm install
         node ts.js
