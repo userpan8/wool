@@ -18,6 +18,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 10.x
+    - name: install request
+      run: npm install request
     # npm install
     - name: 至尊宝签到
       run: |
